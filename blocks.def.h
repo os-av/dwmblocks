@@ -3,10 +3,9 @@
 static const Block blocks[] = {
 	  /*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
     {"",          "volume",											  0,      10},
-	{"",          "brightness",										  0,      10},
     {"",          "battery",									     60,       0},
 	{"",          "mem",                                              5,       0},
-	{"",          "cpu",                                              5,       0},
+	{"",          "network",                                          5,       0},
 	{" ",        "date '+%H:%M'",                                   60,       0},
 	{" ",        "date '+%a, %x'",						             60,	   0},
 };
